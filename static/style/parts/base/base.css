@@ -1,0 +1,121 @@
+* {
+    font: 101% Arial, sans-serif;
+    background-color: #e8e6e3;
+    color: #363636;
+    margin: 0%;
+    /* scrollbar for firefox */
+    scrollbar-width: medium;
+    scrollbar-color: inherit #6209AB;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+    
+}
+
+::-webkit-scrollbar-track {
+    background: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+    background: inherit;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6209AB;
+}
+
+::-webkit-scrollbar-thumb:focus {
+    background: #6209AB;
+}
+  
+body a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.7;
+}
+
+body a:hover {
+    color: #C96FFF;
+    opacity: 1;
+}
+
+body fieldset {
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001,
+        inset 0px 0px 0px 0px #fff9,
+        inset 0px 0px 0px 0px #0001,
+        inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+}
+
+body legend {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 250%;
+}
+
+body label {
+    font-size: 120%;
+    display: block;
+}
+
+body input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    display: block;
+}
+
+body input:hover {
+    border: 1px solid #6209AB;
+}
+
+body input:focus {
+    border: 1px solid #6209AB;
+}
+
+body select {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    display: block;
+}
+
+body select:hover {
+    border: 1px solid #6209AB;
+}
+
+body select:focus {
+    border: 1px solid #6209AB;
+}
+
+body textarea {
+    display: block;
+    width: 100%;
+    resize: vertical;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #CFCFCF;
+}
+
+body textarea:hover {
+    border: 1px solid #6209AB;
+}
+
+body textarea:focus {
+    border: 1px solid #6209AB;
+}

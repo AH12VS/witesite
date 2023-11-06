@@ -1,0 +1,28 @@
+div.footer-div {
+    margin: 10px;
+    clear: both;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0;
+}
+
+div.footer-links-div {
+    text-align: left;
+    float: left;
+    margin: 50px;
+    margin-left: 25px;
+}
+
+div.footer-links-div a {
+    display: block;
+    margin: 10px;
+}
+
+div.copyr-div {
+    text-align: center;
+    font-size: 90%;
+    opacity: 0.5;
+    display: block;
+    margin: 10px;
+    margin-top: 20px;
+    clear: both;
+}

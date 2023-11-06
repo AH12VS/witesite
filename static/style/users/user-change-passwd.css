@@ -1,0 +1,66 @@
+* {
+    margin: auto;
+}
+
+div.main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+div.user-change-passwd-div {
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+div.user-change-passwd-div div {
+    margin: 5%;
+}
+
+div.user-change-passwd-div button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #CFCFCF;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+div.user-change-passwd-div button:hover {
+    border: 1px solid #6209AB;
+}
+
+div.user-change-passwd-div button:active {
+    background-color: #C96FFF;
+    color: #CFCFCF;
+}
+
+div.form-errors-inner-div {
+    background-color: #FF0345;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5%;
+}
+
+div.form-errors-inner-div p {
+    background-color: #FF0345;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.form-errors-inner-div ul {
+    background-color: #FF0345;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.form-errors-inner-div li {
+    background-color: #FF0345;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}

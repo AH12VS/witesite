@@ -1,0 +1,38 @@
+{% extends "parts/base/base.html" %}
+
+{% load static %}
+
+{% block title_block %}Wite{% endblock %}
+
+{% block head_block %}<link rel="stylesheet" href="{% static 'style/home/home.css' %}">{% endblock %}
+
+{% block body_block %}
+
+    <div class="main">
+        <div class="head-div">
+            <div class="nav-bar-div">
+                {% if request.user.is_authenticated %}
+                    <span class="user-name-spn"><a href="{% url 'users:user_detail_page' %}">{{request.user}}</a></span>
+                {% else %}
+                    <a href="{% url 'login:login_page' %}">Login</a>
+                {% endif %}
+                <a href="{% url 'contactus:contactus_page' %}">Contact Us</a>
+                <a href="{% url 'posts:posts_page' %}">Posts</a>
+            </div>
+            <div class="site-name-div">
+                <a href="#">Site</a>
+            </div>
+        </div>
+        <div class="dir-posts-div">
+            <p>
+                Watch New Posts Without Login
+            </p>
+            <a href="{% url 'posts:posts_page' %}">Watch</a>
+        </div>
+        
+        {% include "parts/footer/footer.html" %}
+
+    </div>
+
+{% endblock %}
+

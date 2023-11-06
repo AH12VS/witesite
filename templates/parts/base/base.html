@@ -1,0 +1,20 @@
+{% load static %}
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Halioss">
+        <meta name="description" content="Wite Site">
+        <meta name="keyword" content="Wite, Site, Halioss, Posts">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title_block %} {% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'style/parts/base/base.css' %}">
+        <link rel="icon" href="{% static 'img/parts/title/wite-logo.svg' %}">
+        {% block head_block %} {% endblock %}
+    </head>
+    <body>
+        {% block body_block %}
+        
+        {% endblock %}
+    </body>
+</html>
